@@ -16,26 +16,32 @@ module.exports = (sequelize, DataTypes) => {
   Flight.init({
     flightNumber: {
       type: DataTypes.STRING,
+      field: 'flight_number',
       allowNull: false
     },
     airplaneId: {
       type: DataTypes.INTEGER,
+      field: 'airplane_id',
       allowNull: false
     },
     departureAirportId: {
       type: DataTypes.INTEGER,
+      field: 'departure_airport_id',
       allowNull: false
     },
     arrivalAirportId: {
       type: DataTypes.INTEGER,
+      field: 'arrival_airport_id',
       allowNull: false
     },
     arrivalTime: {
       type: DataTypes.DATE,
+      field: 'arrival_time',
       allowNull: false
     },
     departureTime: {
       type: DataTypes.DATE,
+      field: 'departure_time',
       allowNull: false
     },
     price: {
@@ -44,10 +50,12 @@ module.exports = (sequelize, DataTypes) => {
     },
     boardingGate: {
       type: DataTypes.STRING,
+      field: 'boarding_gate',
       allowNull: false
     },
     totalSeats: {
       type: DataTypes.INTEGER,
+      field: 'total_seats',
       allowNull: false
     },
   }, {
