@@ -1,0 +1,18 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Authentication and Authorisation Service for the Airline Backend System.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Laxmi Kumar Sahani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
